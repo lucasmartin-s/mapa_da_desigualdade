@@ -2,7 +2,7 @@
 
 O Mapa da Desigualdade é uma publicação e uma plataforma de dados desenvolvida pela [Casa Fluminense](https://casafluminense.org.br/) que reúne indicadores socioeconômicos para diagnosticar as desigualdades na Região Metropolitana do Rio de Janeiro (RMRJ). Seu principal objetivo é tornar as desigualdades territoriais visíveis e fornecer evidências para orientar políticas públicas, pesquisas e ações da sociedade civil.
 
-Na edição mais recente, de 2023, o projeto apresenta 40 indicadores mapeados, organizados em torno de quatro dimensões: Justiça econômica, Justiça racial, Justiça de gênero e Justiça climática, com dados provenientes de diversas bases públicas, privadas e de geração cidadã de dados, mapeando e calculando indicadores comparáveis entre municípios da RMRJ, o Estado do Rio de Janeiro e o Brasil, tornando visíveis disparidades que muitas vezes ficam escondidas em médias nacionais ou estaduais.
+[Na edição mais recente].(https://casafluminense.org.br/atuacao/mapa-da-desigualdade/)., de 2023, o projeto apresenta 40 indicadores mapeados, organizados em torno de quatro dimensões: Justiça econômica, Justiça racial, Justiça de gênero e Justiça climática, com dados provenientes de diversas bases públicas, privadas e de geração cidadã de dados, mapeando e calculando indicadores comparáveis entre municípios da RMRJ, o Estado do Rio de Janeiro e o Brasil, tornando visíveis disparidades que muitas vezes ficam escondidas em médias nacionais ou estaduais.
 
 Os indicadores abrangem diferentes áreas temáticas: habitação, emprego, transporte, segurança, saneamento, saúde, educação, cultura, assistência social e gestão pública.
 
