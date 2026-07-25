@@ -4,7 +4,7 @@ import pandas as pd
 # CONFIGURAÇÕES
 # ---------------------------------------------------------------------------
 
-CAMINHO_ARQUIVO = r"\PARTICIPANTES_2025.csv" # preencher com o caminho do arquivo CSV de participantes do ENEM 2025
+CAMINHO_ARQUIVO = r"\PARTICIPANTES_2025.csv"
 CAMINHO_SAIDA = r"\acesso_internet_enem_2025.xlsx" 
 
 CO_UF_RIO_DE_JANEIRO = 33
