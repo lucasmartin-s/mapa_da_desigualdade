@@ -41,10 +41,6 @@ Todos os dados utilizados são públicos e disponibilizados pelo Instituto Nacio
 - [Microdados do Censo Escolar](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar)
 - [Microdados do ENEM](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
 
-## Metodologia geral
-
-Os indicadores são calculados por meio de contagem direta de registros administrativos declarados pelas escolas ou pelos próprios inscritos, sem ponderação amostral. Por isso, os resultados refletem o universo de respondentes/escolas em cada base, e não necessariamente o total da população residente ou matriculada em cada localidade. Municípios com número reduzido de registros devem ter seus resultados interpretados com cautela.
-
 Detalhes metodológicos específicos de cada indicador estão documentados no README da respectiva pasta.
 
 ## Tecnologias utilizadas
