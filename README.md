@@ -53,6 +53,9 @@ Detalhes metodológicos específicos de cada indicador estão documentados no RE
 
 Sugestões de novos indicadores, correções metodológicas ou melhorias no código são bem-vindas. Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
 
+## Licença
+Este projeto está licenciado sob a licença MIT. Isso significa que qualquer pessoa pode usar, copiar, modificar e redistribuir o código deste repositório, inclusive para fins comerciais, desde que mantida a atribuição de autoria. Veja o arquivo [LICENSE](./LICENSE) para o texto completo.
+
 ## Autoria
 
 Projeto desenvolvido por [Lucas Martins](https://github.com/lucasmartin-s).
