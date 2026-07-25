@@ -1,9 +1,5 @@
 import pandas as pd
 
-# ---------------------------------------------------------------------------
-# CONFIGURAÇÕES
-# ---------------------------------------------------------------------------
-
 CAMINHO_ARQUIVO = r"\PARTICIPANTES_2025.csv"
 CAMINHO_SAIDA = r"\acesso_internet_enem_2025.xlsx" 
 
@@ -39,10 +35,6 @@ COLUNAS = ["CO_UF_PROVA", "NO_MUNICIPIO_PROVA", "Q020", "TP_COR_RACA"]
 CODIGO_BRANCA = 1
 CODIGOS_NEGROS = [2, 3]  # preta + parda
 
-# ---------------------------------------------------------------------------
-# LEITURA DO ARQUIVO
-# ---------------------------------------------------------------------------
-
 df = pd.read_csv(
     CAMINHO_ARQUIVO,
     sep=";",
@@ -56,13 +48,8 @@ df = pd.read_csv(
     },
 )
 
-# Tira espaços em branco eventuais nos nomes de município e nas respostas
 df["NO_MUNICIPIO_PROVA"] = df["NO_MUNICIPIO_PROVA"].str.strip()
 df["Q020"] = df["Q020"].str.strip()
-
-# ---------------------------------------------------------------------------
-# FUNÇÃO DE CONTAGEM
-# ---------------------------------------------------------------------------
 
 def contar_internet(subconjunto: pd.DataFrame) -> list:
     """Retorna as métricas de acesso à internet (geral, negros e brancos)
@@ -103,11 +90,6 @@ COLUNAS_RESULTADO = [
     "Total geral de inscritos",
 ]
 
-
-# ---------------------------------------------------------------------------
-# CÁLCULOS
-# ---------------------------------------------------------------------------
-
 resultados = []
 
 # Brasil
@@ -133,9 +115,5 @@ somatorio_rmrj = ["RMRJ"] + [
 resultados.append(somatorio_rmrj)
 
 df_resultado = pd.DataFrame(resultados, columns=COLUNAS_RESULTADO)
-
-# ---------------------------------------------------------------------------
-# EXPORTAÇÃO
-# ---------------------------------------------------------------------------
 
 df_resultado.to_excel(CAMINHO_SAIDA, index=False, sheet_name="Acesso Internet")
