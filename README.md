@@ -8,7 +8,7 @@ Os indicadores abrangem diferentes áreas temáticas: habitação, emprego, tran
 
 ## Sobre o repositório
 
-Este repositório é referente apenas a alguns dos dados mais complexos do Mapa da Desigualdade 2026, que exigem a utilização de código para leitura e análise. Por isso, inclui apenas alguns dos indicadores presentes na nova versão do projeto.
+Este repositório é referente apenas a alguns dos dados mais complexos da nova versão do projeto, de 2026, que exigem a utilização de código para leitura e análise. 
 
 ## Indicadores disponíveis
 
