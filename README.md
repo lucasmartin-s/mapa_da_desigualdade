@@ -18,34 +18,49 @@ Percentual de salas de aula climatizadas e com acessibilidade em escolas públic
 ### 📶 [Sem Internet em Casa](./sem_internet_em_casa)
 Cobertura de acesso à internet domiciliar entre inscritos do ENEM, segmentada por raça/cor, a partir dos microdados de participantes do ENEM (INEP).
 
+### 🎭 [Indicadores Culturais RAIS](./indicadores_culturais_rais)
+Remuneração média e quantidade de vínculos empregatícios formais em ocupações culturais (CBO 2002), segmentados por raça/cor, a partir dos microdados de vínculos da Relação Anual de Informações Sociais (RAIS/MTE), acessados via Base dos Dados.
+
 > Cada pasta contém seu próprio README com a metodologia detalhada, o código utilizado e a estrutura dos dados de saída.
 
 ## Estrutura do repositório
 
 ```
 mapa_da_desigualdade/
-├── README.md                          ← este arquivo
+├── README.md ← este arquivo
 ├── salas_de_aula_climatizadas/
-│   ├── salas_de_aula_climatizadas.py
-│   └── README.md
+│ ├── salas_de_aula_climatizadas.py
+│ └── README.md
 ├── sem_internet_em_casa/
-│   ├── sem_internet_em_casa.py
-│   └── README.md
-└── ...                                 ← futuros indicadores
+│ ├── sem_internet_em_casa.py
+│ └── README.md
+├── indicadores_culturais_rais/
+│ ├── sql/
+│ │ ├── remuneracao_cultura_total.sql
+│ │ ├── remuneracao_cultura_brancos.sql
+│ │ └── remuneracao_cultura_negros.sql
+│ ├── dicionarios/
+│ │ └── cbo_ocupacoes_culturais.csv
+│ ├── resultados/
+│ │ └── tabelas_indicadores/
+│ └── README.md
+└── ... ← futuros indicadores
 ```
 
 ## Fontes de dados
 
-Todos os dados utilizados são públicos e disponibilizados pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP):
+Os dados utilizados são públicos, provenientes de diferentes órgãos e plataformas:
 
-- [Microdados do Censo Escolar](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar)
-- [Microdados do ENEM](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
+- [Microdados do Censo Escolar](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar) — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)
+- [Microdados do ENEM](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem) — Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)
+- [Microdados de Vínculos da RAIS](https://basedosdados.org/dataset/br-me-rais) — Ministério do Trabalho e Emprego (MTE), acessados via [Base dos Dados](https://basedosdados.org/)
 
 Detalhes metodológicos específicos de cada indicador estão documentados no README da respectiva pasta.
 
 ## Tecnologias utilizadas
 
 - Python (pandas)
+- SQL (BigQuery, via Base dos Dados)
 - Microdados públicos em formato CSV
 - Exportação de resultados em Excel (.xlsx)
 
