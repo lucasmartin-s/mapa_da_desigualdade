@@ -17,15 +17,13 @@ e exporta o resultado para CSV.
 import unicodedata
 import pandas as pd
 
-df_sub = pd.read_csv(
-    r"C:\Users\USUARIO\Documents\GitHub\mapa_da_desigualdade\producao_habitacional_mcmv\base\mcmv_subsidiado_20260630.csv",
+df_sub = pd.read_csv("arquivo.csv",
     sep=";",
     encoding="utf-8",
     dtype=str,
 )
 
-df_fin = pd.read_csv(
-    r"C:\Users\USUARIO\Documents\GitHub\mapa_da_desigualdade\producao_habitacional_mcmv\base\mcmv_financ_sintetico_20260724_v2.csv",
+df_fin = pd.read_csv("arquivo.csv",
     sep=";",
     encoding="utf-8",
     dtype=str,
