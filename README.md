@@ -68,14 +68,14 @@ mapa_da_desigualdade/
 │   ├── matriculas_em_creche.py
 │   └── README.md
 ├── producao_habitacional_mcmv/
-│   ├── base/                          ← dados brutos (não versionados, ver .gitignore)
+│   ├── base/
 │   │   ├── mcmv_subsidiado_20260630.csv
 │   │   └── mcmv_financ_sintetico_20260724_v2.csv
 │   ├── resultados/
 │   │   └── producao_mcmv_rj_municipios_2024_2025.csv
 │   ├── producao_habitacional_mcmv.py
 │   └── README.md
-└── ...  ← futuros indicadores
+└── 
 ```
 
 > Os arquivos e pastas de dados brutos não versionados (ex.: `producao_habitacional_mcmv/base/`) estão listados no [`.gitignore`](./.gitignore).
