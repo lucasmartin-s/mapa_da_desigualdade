@@ -12,8 +12,7 @@ Este repositório é referente apenas a alguns dos dados mais complexos da nova 
 
 ## Indicadores disponíveis
 
-### [Salas de Aula Climatizadas](./salas_de_aula_climatizadas)
-├── Percentual de salas de aula climatizadas e com acessibilidade em escolas públicas em funcionamento, a partir dos microdados do Censo Escolar (INEP).
+### [Salas de Aula Climatizadas](./salas_de_aula_climatizadas) # Percentual de salas de aula climatizadas e com acessibilidade em escolas públicas em funcionamento, a partir dos microdados do Censo Escolar (INEP).
 
 ### [Sem Internet em Casa](./sem_internet_em_casa)
 ├── Cobertura de acesso à internet domiciliar entre inscritos do ENEM, segmentada por raça/cor, a partir dos microdados de participantes do ENEM (INEP).
