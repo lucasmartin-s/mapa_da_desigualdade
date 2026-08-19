@@ -12,19 +12,25 @@ Este repositório é referente apenas a alguns dos dados mais complexos da nova 
 
 ## Indicadores disponíveis
 
-## [Salas de Aula Climatizadas](./salas_de_aula_climatizadas): percentual de salas de aula climatizadas e com acessibilidade em escolas públicas em funcionamento, a partir dos microdados do Censo Escolar (INEP).
+## [Salas de Aula Climatizadas](./salas_de_aula_climatizadas)
+
+Percentual de salas de aula climatizadas e com acessibilidade em escolas públicas em funcionamento, a partir dos microdados do Censo Escolar (INEP).
 
 ## [Sem Internet em Casa](./sem_internet_em_casa)
-├── Cobertura de acesso à internet domiciliar entre inscritos do ENEM, segmentada por raça/cor, a partir dos microdados de participantes do ENEM (INEP).
+
+Cobertura de acesso à internet domiciliar entre inscritos do ENEM, segmentada por raça/cor, a partir dos microdados de participantes do ENEM (INEP).
 
 ### [Indicadores Culturais RAIS](./indicadores_culturais_rais)
-├── Remuneração média e quantidade de vínculos empregatícios formais em ocupações culturais (CBO 2002), segmentados por raça/cor, a partir dos microdados de vínculos da Relação Anual de Informações Sociais (RAIS/MTE), acessados via Base dos Dados.
+
+Remuneração média e quantidade de vínculos empregatícios formais em ocupações culturais (CBO 2002), segmentados por raça/cor, a partir dos microdados de vínculos da Relação Anual de Informações Sociais (RAIS/MTE), acessados via Base dos Dados.
 
 ### [Matrículas em Creche](./matriculas_em_creche)
-├── Total de matrículas em creche (0 a 3 anos), por dependência administrativa (Federal, Estadual, Municipal e Privada), agregado por município da RMRJ, total da RMRJ, Estado do Rio de Janeiro e Brasil, a partir dos microdados do Censo Escolar (INEP).
+
+Total de matrículas em creche (0 a 3 anos), por dependência administrativa (Federal, Estadual, Municipal e Privada), agregado por município da RMRJ, total da RMRJ, Estado do Rio de Janeiro e Brasil, a partir dos microdados do Censo Escolar (INEP).
 
 ### [Produção Habitacional MCMV](./producao_habitacional_mcmv)
-├── Produção habitacional do Programa Minha Casa, Minha Vida (MCMV) nos 92 municípios do Estado do Rio de Janeiro (2024–2025), consolidando unidades subsidiadas (OGU) e financiadas (FGTS), a partir das bases do Programa MCMV do Ministério das Cidades.
+
+Produção habitacional do Programa Minha Casa, Minha Vida (MCMV) nos 92 municípios do Estado do Rio de Janeiro (2024–2025), consolidando unidades subsidiadas (OGU) e financiadas (FGTS), a partir das bases do Programa MCMV do Ministério das Cidades.
 
 > Cada pasta contém seu próprio README com a metodologia detalhada, o código utilizado e a estrutura dos dados de saída.
 
