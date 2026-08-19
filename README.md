@@ -74,8 +74,7 @@ mapa_da_desigualdade/
 │   ├── resultados/
 │   │   └── producao_mcmv_rj_municipios_2024_2025.csv
 │   ├── producao_habitacional_mcmv.py
-│   └── README.md
-└── 
+└── └── README.md
 ```
 
 > Os arquivos e pastas de dados brutos não versionados (ex.: `producao_habitacional_mcmv/base/`) estão listados no [`.gitignore`](./.gitignore).
